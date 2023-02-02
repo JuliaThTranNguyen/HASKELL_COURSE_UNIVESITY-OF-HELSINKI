@@ -3,13 +3,9 @@
 <p align="center"><img alt="Course logo" src="img/haskell-mooc-logo.svg" width="400" align="center"></p>
 
 University of Helsinki
-
-[Course page](https://haskell.mooc.fi)
-
-[![License: CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommonse.org/licenses/by-sa/4.0/)
-
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
-
+This is the solution to the course 
+This only for self-documentation and studying purpose
+Feel free to come up with any better solutions or contribute to this work.
 ## About the course
 
 This is an online course on Functional Programming that uses the
@@ -20,6 +16,28 @@ The course is intended to be followed through the [Course
 page](https://haskell.mooc.fi), but in case the course page is down or
 you want an offline backup, the course material is also available in
 this repository ([part1.html](part1.html), [part2.html](part2.html)).
+
+## What is Haskell?
+Haskell is a general-purpose, statically-typed, purely functional programming language with type inference and lazy evaluation.
+
+To run Haskell programs, please visit this page for extra guidance on installation:
+[Haskell Installation page](https://www.haskell.org/ghcup/install/)
+
+<b>Note! GHC 8.10.7 has a GHCi bug that makes editing lines impossible on ARM-based systems. As a workaround, use TERM=dumb stack ghci. More info here.</b>
+
+To uninstall Haskell:
+On Linux OS:
+Use CMD
+Step 1:
+```
+ghcup nuke
+```
+Step 2: then make sure any ghcup added lines in your ~/.bashrc (or similar) are removed.
+
+
+On Windows:
+On windows, right click on the Uninstall Haskell.ps1 PowerShell script on your Desktop and select Run with PowerShell.
+
 
 ## Exercises
 
